@@ -1,1 +1,3 @@
 # taller-sql
+ Ejercicios taller 
+ 
