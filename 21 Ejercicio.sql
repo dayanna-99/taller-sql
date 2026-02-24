@@ -1,0 +1,12 @@
+-- Ejercicio 21
+-- Clientes con uso frecuente del cupón
+
+SELECT 
+    c.nombre,
+    COUNT(*) AS veces_usado
+FROM ventas v
+JOIN clientes c 
+    ON v.id_cliente = c.id_cliente
+WHERE v.cupon_usado = 'ULTIMO_SUSPIRO'
+GROUP BY v.id_cliente
+HAVING COUNT(*) >= 3;
