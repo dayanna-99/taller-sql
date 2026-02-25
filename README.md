@@ -6,7 +6,6 @@ El objetivo fue analizar la información de clientes, productos y ventas de la t
 
 Durante el desarrollo se aplicaron sentencias `SELECT`, funciones de agregación, filtros, `JOIN`, subconsultas y CTE.
 
----
 
 ## Estructura del proyecto
 
@@ -24,15 +23,12 @@ taller-sql/
 
 Cada ejercicio se encuentra en un archivo independiente para facilitar su revisión y ejecución individual.
 
----
-
 ## Ejecución
 
 Las consultas pueden ejecutarse directamente sobre la base de datos `tienda.db` utilizando SQLite en terminal o una herramienta en línea como sqliteonline.com.  
 
 Cada archivo `.sql` está diseñado para ejecutarse de forma independiente.
 
----
 
 ## Decisiones técnicas
 
@@ -41,7 +37,6 @@ Cada archivo `.sql` está diseñado para ejecutarse de forma independiente.
 - En ejercicios analíticos se utilizaron subconsultas y CTE (`WITH`).
 - No se realizaron modificaciones a la base de datos; únicamente se trabajó con consultas `SELECT`, como lo indicaba el taller.
 
----
 
 ## Información
 
